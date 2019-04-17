@@ -1,0 +1,19 @@
+ @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+ $title-font: 'Gloria Hallelujah', serif;
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.title {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 40px;
+  font-family: $title-font;
+}
+
+.menu {
+  margin-left: 5px;
+  margin-right: 5px;
+}

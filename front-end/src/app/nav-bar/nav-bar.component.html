@@ -1,0 +1,15 @@
+<mat-toolbar color="primary">
+  <span class="spacer"></span>
+  <button class="menu" mat-button color="accent">About</button>
+  <button class="menu" mat-button [matMenuTriggerFor]="life" color="accent">Life</button>
+  <mat-menu #life="matMenu">
+    <button mat-menu-item>Running</button>
+    <button mat-menu-item>Music</button>
+    <button mat-menu-item>Thoughts</button>
+    <button mat-menu-item>School</button>
+  </mat-menu>
+  <span class="title">Still Tuesday</span>
+  <button class="menu" mat-button color="accent">Film / TV</button>
+  <button class="menu" mat-button color="accent">Reading</button>
+  <span class="spacer"></span>
+</mat-toolbar>

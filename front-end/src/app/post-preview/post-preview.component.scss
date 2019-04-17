@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 20px;
+  margin: 20px;
+  // justify-content: center;
+}
+
+.preview {
+  margin-left: 20px;
+  width: 50%;
+}
+
+.info {
+  display: flex;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.picture {
+  width: 50%;
+  margin-left: 20px;
+}
+
+.category {
+  color: purple;
+}
+
+.date {
+  // display: flex;
+  justify-content: end;
+}

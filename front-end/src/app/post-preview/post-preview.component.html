@@ -1,0 +1,40 @@
+<div class="container" [class.mat-elevation-z8]="borderOn" (click)="showPost()">
+  <img
+    *ngIf="pictureFirst"
+    class="picture"
+    [src]="pictureURL"
+    alt=""
+    referrerPolicy="no-referrer"
+    (click)="showPost()"
+  />
+  <!-- <div class="picture">
+    <blockquote class="imgur-embed-pub" lang="en" data-id="a/n3MieHe">
+      <a href="//imgur.com/n3MieHe"></a>
+    </blockquote>
+    <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+  </div> -->
+  <div class="preview">
+    <div class="info">
+      <span class="category">
+        Film / TV
+      </span>
+      <span class="spacer"></span>
+      <span class="date">
+        April 11
+      </span>
+    </div>
+    <h1>
+      The Favourite
+    </h1>
+    <p>
+      Emma Watson, how I've missed you.
+    </p>
+  </div>
+  <img
+    *ngIf="!pictureFirst"
+    class="picture"
+    [src]="pictureURL"
+    alt=""
+    referrerPolicy="no-referrer"
+  />
+</div>
