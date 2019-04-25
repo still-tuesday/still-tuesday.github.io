@@ -26,7 +26,7 @@ import { BlogPostComponent } from './blog-post/blog-post.component';
   declarations: [AppComponent, NavBarComponent, TimelineComponent, HomeComponent, FilmTvPreviewComponent, LifePreviewComponent, PostPreviewComponent, BlogPostComponent],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    AppRoutingModule,https://www.amazon.ca/ref=nav_logo
     BrowserAnimationsModule,
     MaterialModule,
     MatTreeModule,
